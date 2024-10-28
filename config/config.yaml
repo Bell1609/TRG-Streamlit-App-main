@@ -8,6 +8,10 @@ cookie:
   name: some_cookie_name
 credentials:
   usernames:
+    admin2:
+      email: nam.tran@trginternational.com
+      name: admin2
+      password: $2b$12$CttvzaJ7kGW994mp13RSHOiAhczS//0ztAosbQtPd7CF/mQQ.2cAW
     jsmith:
       email: jsmith@gmail.com
       failed_login_attempts: 0
