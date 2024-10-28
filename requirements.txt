@@ -83,3 +83,5 @@ watchdog==4.0.1
 wordcloud==1.9.3
 XlsxWriter==3.2.0
 ydata-profiling==4.10.0
+sqlalchemy==2.0.20
+python-dotenv==1.0.0
