@@ -11,6 +11,7 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from fd.ticket_data_graph_drawing import Ticket_Graph_Drawing
 from fd.ticket_data_handling import Ticket_Data
+from authentication import make_sidebar
 
 # Function to convert date columns to datetime format
 def convert_date_columns_to_date(df):
@@ -70,6 +71,7 @@ def create_excel(df):
 
 st.set_page_config(page_title='Home Page')
 
+make_sidebar()
 st.header('Helpdesk Ticket Data Insights')
 
 ticket_data = Ticket_Data()

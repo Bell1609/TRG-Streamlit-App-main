@@ -14,6 +14,7 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from fd.ticket_data_graph_drawing import Ticket_Graph_Drawing
 from fd.ticket_data_handling import Ticket_Data
+from authentication import make_sidebar
 
 
 def preprocess_data(df):
@@ -36,6 +37,7 @@ def preprocess_data(df):
 
     
 st.set_page_config(page_title='Home Page')
+make_sidebar()
 
 st.header('Ticket Data Segmenting')
 

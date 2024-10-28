@@ -8,6 +8,7 @@ import plotly.express as px
 import os
 
 import yaml
+from authentication import make_sidebar
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
@@ -210,6 +211,7 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded")
 
+make_sidebar()
 alt.themes.enable("dark")
 
 # File uploaderƒ

@@ -10,7 +10,9 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from fs.data_handling import Data_Handling
 from fs.graph_drawing import Graph_Drawing
+from authentication import make_sidebar
 
+make_sidebar()
 data_handling = Data_Handling()
 graph_drawing = Graph_Drawing()
 
