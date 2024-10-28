@@ -8,7 +8,7 @@ st.title("Instructions")
 st.sidebar.success('Select the ticket data or sales data')
 
 # Read the HTML file content
-with open("instructions.html", 'r') as file:
+with open("../instructions.html", 'r') as file:
     html_content = file.read()
 
 # Display the HTML content
